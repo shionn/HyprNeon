@@ -19,8 +19,11 @@ sudo apt install fonts-noto #utilisé dans certain outils
 autre truc que j'aime avoir 
 ~~~bash
 sudo apt install screen \
- psmisc # killall
- libnotify-bin # pour tester les notification avec notify-send
+  psmisc # killall
+  libnotify-bin # pour tester les notification avec notify-send
+  evince
+  gnome-calculator
+
 ~~~
 
 # a tester
