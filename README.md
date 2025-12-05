@@ -23,6 +23,22 @@ sudo apt install screen \
  libnotify-bin # pour tester les notification avec notify-send
 ~~~
 
+# Avec kde plasma
+
+A coter de hyprland j'utilise kde pour jouer. 
+
+~~~bash installation
+sudo apt instal plasma-desktop
+TODO lancement
+~~~
+
+## desactiver waybar sur kde
+
+~~~bash
+sudo systemctl --global disable waybar.service
+startplasma-wayland
+~~~
+
 # a tester
 
 ## lancer gnome-shell sans gdm
