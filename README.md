@@ -19,8 +19,27 @@ sudo apt install fonts-noto #utilisé dans certain outils
 autre truc que j'aime avoir 
 ~~~bash
 sudo apt install screen \
- psmisc # killall
- libnotify-bin # pour tester les notification avec notify-send
+  psmisc # killall
+  libnotify-bin # pour tester les notification avec notify-send
+  evince
+  gnome-calculator
+
+~~~
+
+# Avec kde plasma
+
+A coter de hyprland j'utilise kde pour jouer. 
+
+~~~bash installation
+sudo apt instal plasma-desktop
+TODO lancement
+~~~
+
+## desactiver waybar sur kde
+
+~~~bash
+sudo systemctl --global disable waybar.service
+startplasma-wayland
 ~~~
 
 # a tester
