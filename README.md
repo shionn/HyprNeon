@@ -21,7 +21,7 @@ autre truc que j'aime avoir
 sudo apt install screen \
   psmisc # killall
   libnotify-bin # pour tester les notification avec notify-send
-  evince
+  evince, loupe
   gnome-calculator
 
 ~~~
