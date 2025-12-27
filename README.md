@@ -31,15 +31,14 @@ sudo apt install screen \
 A coter de hyprland j'utilise kde pour jouer. 
 
 ~~~bash installation
-sudo apt instal plasma-desktop
-TODO lancement
+sudo apt install plasma-desktop
+startplasma-wayland
 ~~~
 
 ## desactiver waybar sur kde
 
 ~~~bash
 sudo systemctl --global disable waybar.service
-startplasma-wayland
 ~~~
 
 # a tester
