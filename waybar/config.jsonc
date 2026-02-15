@@ -38,17 +38,19 @@
 		// pour rentrer un caractere unicode ctrl+shift+u+code
 		"format-icons": {
 			"1": "",
-			"2": "",
-			"3": "",
-			"4": "",
-			"5": ""
+			"2": "🖌",
+			"3": "",
+			"4": "",
+			"5": "",
+			"6": ""
 		},
 		"persistent_workspaces": {
         	"1": [],
         	"2": [],
         	"3": [],
         	"4": [],
-        	"5": []
+        	"5": [],
+        	"6": []
         },
 		"sort-by-number": true
 	},
@@ -144,10 +146,10 @@
 		"menu": "on-click",
 		"menu-file": "/usr/share/waybar/custom_modules/power_menu.xml", // Menu file in resources folder
 		"menu-actions": {
-			//"shutdown": "shutdown",
-			//"reboot": "reboot",
+			"shutdown": "shutdown",
+			"reboot": "reboot",
 			"Veille": "systemctl suspend",
-			//"hibernate": "systemctl hibernate"
+			"hibernate": "systemctl hibernate"
 		}
     }
 }
