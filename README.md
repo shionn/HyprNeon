@@ -41,6 +41,13 @@ startplasma-wayland
 sudo systemctl --global disable waybar.service
 ~~~
 
+# reset certain parametre 
+
+~~~bash
+sudo apt install gnome-tweaks 
+gnome-tweaks > 3barre horizontal > reset to default.
+~~~
+
 # a tester
 
 ## lancer gnome-shell sans gdm
