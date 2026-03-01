@@ -32,6 +32,7 @@ A coter de hyprland j'utilise kde pour jouer.
 
 ~~~bash installation
 sudo apt install plasma-desktop
+sudo apt remove plasma-discover plasma-welcome
 startplasma-wayland
 ~~~
 
