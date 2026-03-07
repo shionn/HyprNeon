@@ -32,6 +32,7 @@ A coter de hyprland j'utilise kde pour jouer.
 
 ~~~bash installation
 sudo apt install plasma-desktop
+sudo apt remove plasma-discover plasma-welcome
 startplasma-wayland
 ~~~
 
@@ -39,6 +40,13 @@ startplasma-wayland
 
 ~~~bash
 sudo systemctl --global disable waybar.service
+~~~
+
+# reset certain parametre 
+
+~~~bash
+sudo apt install gnome-tweaks 
+gnome-tweaks > 3barre horizontal > reset to default.
 ~~~
 
 # a tester
