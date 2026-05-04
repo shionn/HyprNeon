@@ -1,0 +1,23 @@
+sudo apt install bash-completion vim
+sudo apt remove nano
+
+sudo apt install hyprland hyprland-guiutils hyprland-backgrounds hyprlock hypridle 
+sudo apt install kitty wofi waybar mpv power-profiles-daemon mako-notifier pavucontrol pipewire-pulse
+sudo apt install fonts-font-awesome fonts-noto
+
+sudo apt install psmisc nfs-common cifs-utils wget htop
+sudo apt install gedit evince loupe gnome-calculator nautilus f3d
+
+sudo apt install git openjdk-21-jdk openjdk-21-source maven python3-venv
+sudo apt install gimp openscad inkscape
+sudo apt install firefox-esr
+sudo apt install gamescope gamemode
+
+
+sudo apt install syncthing
+sudo systemctl enable syncthing@shionn.service
+systemctl start syncthing@shionn.service
+
+sudo apt install flatpack
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+

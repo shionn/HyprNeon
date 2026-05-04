@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo modprobe i2c-dev
+sudo openrgb -d "ENE DRAM" -m 'Chase fade' -c FF4000 -d "MSI MPG B550 GAMING CARBON WIFI (MS-7C90)" -m 'Breathing' -c FF4000 -s 1
