@@ -10,7 +10,7 @@ sudo apt install gedit evince loupe gnome-calculator nautilus f3d
 
 sudo apt install git openjdk-21-jdk openjdk-21-source maven python3-venv
 sudo apt install gimp openscad inkscape
-sudo apt install firefox-esr
+sudo apt install firefox-esr gnumeric
 sudo apt install gamescope gamemode
 
 
